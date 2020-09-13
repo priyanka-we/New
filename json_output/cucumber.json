@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "WeAdmit Login Page Scenario",
+        "description": "",
+        "id": "weadmit-login-page;weadmit-login-page-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9904927800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is present on Login Page",
+            "match": {
+              "location": "LoginStep.user_present_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15949700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of Login Page is WeAdmit",
+            "match": {
+              "location": "LoginStep.title_of_login_page_is_WeAdmit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 312596800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and user enters password",
+            "match": {
+              "location": "LoginStep.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 319718000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on Signin button",
+            "match": {
+              "location": "LoginStep.user_clicks_on_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6963800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on Home page",
+            "match": {
+              "location": "LoginStep.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 971580700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStep.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "WeAdmit Login Page",
+    "description": "",
+    "id": "weadmit-login-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/91963/eclipse-workspace/Project/WeAd/src/main/java/Features/Login.feature"
+  }
+]
